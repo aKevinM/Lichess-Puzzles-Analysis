@@ -11,13 +11,13 @@ Summary
 
 Requirements
 
-- ~150GB of free disk space
+- ~150GB of free disk space (or ~30GB if you only download the puzzle database)
 - Python 3.12
 - PeaZip (for Windows)
 
 Steps
 
-- Go to: https://database.lichess.org/#standard_games and download the games for August 2025.
+- Go to: https://database.lichess.org/#standard_games and download the games for August 2025. (you can skip this if you're only interested in the puzzles).
 - Go to: https://database.lichess.org/#puzzles and download the puzzle file.
 - Decompress the files (using PeaZip on Windows).
 - Run Extract_PGN.py.
