@@ -1,6 +1,6 @@
 # Lichess-Puzzles-Analysis
 
-This directory contains four Python scripts used to prepare the Lichess database (games and puzzles).
+This directory contains four Python scripts used to prepare the Lichess database (games and puzzles), 1 .do file to run in STATA and 3 sample .csv files from the Lichess Database.
 
 Summary
 
