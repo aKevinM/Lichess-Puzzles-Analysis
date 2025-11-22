@@ -20,12 +20,13 @@ Steps
 - Go to: https://database.lichess.org/#standard_games and download the games for August 2025.
 - Go to: https://database.lichess.org/#puzzles and download the puzzle file.
 - Decompress the files (using PeaZip on Windows).
-- Run Extraire_PGN.py.
-- Run Nettoyer_Puzzles.py.
-- Run Nettoyer_Suite.py.
-- Run Matcher_Ouvertures.py.
+- Run Extract_PGN.py.
+- Run Clean_Puzzles.py.
+- Run Clean_Part2.py.
+- Run Match_Opening.py.
 - Run the .do file in STATA. Warning: STATA is a paid service. Instead, you can use R or Python: just ask some AI to convert the .DO file into anything else free to use.
 
 Notes
 
-The opening matching is not perfect. It keeps only the openings that are easiest to match and often removes opening variations.
+- The opening matching is not perfect. It keeps only the openings that are easiest to match and often removes opening variations.
+- The .do file is in french. Sorry for the inconvenience.
